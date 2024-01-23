@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Prepare') {
+            steps {
+                // Download necessary scripts and files from GitHub
+                // You can use 'git clone' or any other method
+            }
+        }
+        stage('Docker build, Docker run') {
+            steps {
+                // Build Docker image
+                sh 'docker build -t your-image-name .'
+                // Run Docker container
+                sh 'docker run -d --name your-container-name your-image-name'
+            }
+        }
+        stage('Test') {
+            steps {
+                // Implement your testing procedures here
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+devices:
+  device1:
+    alias: Device 1
+    type: iosxe
+    connections:
+      defaults:
+        class: unicon.Unicon
+    tacacs:
+      username: cisco
+      password: cisco123!
+      ip: 192.168.56.101
+
+  # Add more devices as needed
