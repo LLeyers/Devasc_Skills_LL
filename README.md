@@ -23,5 +23,5 @@
 
 ### Task Verification:
 - Verify changes on "Devasc_Skills_LL" repository on GitHub.
-- [Screenshot of updated files](![image](https://github.com/LLeyers/Devasc_Skills_LL/assets/113699642/d5045567-3574-4ab1-819d-9798f67ad9ab)).
+- [Screenshot of updated files](![image]https://github.com/LLeyers/Devasc_Skills_LL/assets/113699642/d5045567-3574-4ab1-819d-9798f67ad9ab)
 
